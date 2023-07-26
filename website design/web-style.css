@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-top{
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px 20px;
+}
+.info-text p{
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.social-icon{
+    text-align: right;
+}
+.social-icon ul{
+    margin: 0;
+    padding: 0;
+}
+.social-icon ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 30px;
+}
+.social-icon ul li a{
+    text-decoration: none;
+}
+.social-icon ul li a img{
+    width: 30px;
+}
+
+/* Navbar Start */
+.navbar-header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px 20px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.nav-logo{
+    text-align: right;
+}
+.nav-logo ul{
+    margin: 0;
+    padding: 0;
+}
+.nav-logo ul li{
+    display: inline;
+    padding-left: 20px;
+    list-style-type: none;
+}
+.nav-logo ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #373737;
+}
+
+/* Banner CSS */
+.banner{
+    background-image: url("img/banner.jpg");
+    height: 500px;
+    background-size: cover;
+}
+.banner-heading h3{
+    margin: 0;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 50px;
+}
+.banner-heading p{
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 40%;
+    text-align: justify;
+}
+
+/* About Us  */
+.about-us{
+    padding: 50px 0;
+}
+.about-heading h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.about-heading p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.about-heading button{
+    background-color: olivedrab;
+    padding: 10px 40px;
+    border: 0;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.about-heading button:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+/* Map CSS */
+.map-sec{
+    padding: 50px 0;
+}
+.map-grid{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 4%;
+    align-items: center;
+}
+.map-text p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.map-img img{
+    max-width: 100%;
+    height: 400px;
+}
